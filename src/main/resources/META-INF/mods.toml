@@ -1,0 +1,27 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory
+license="MIT"
+[[mods]] #mandatory
+modId="lymie" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Lymie" #mandatory
+logoFile="logo_baniere_lymie.png" #optional
+credits="Thanks to Kaupenjoe for his tutorial video" #optional
+authors="Limboll" #optional
+description='''
+A following mod to Luminium (my first mod)
+
+It adds tons of new materials to the game for even more end game gear !
+'''
+[[dependencies.lymie]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.lymie]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
